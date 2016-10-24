@@ -9,9 +9,9 @@
 *
 * It should be a String.
 **/
-
-
-
+var firstName = "Kay Hian";
+var lastName = "Calpito";
+var birthPlace = "Philippines";
 /**
 * #2
 * Variables with a Number as their value
@@ -21,9 +21,9 @@
 *
 * Their values should be a Number
 **/
-
-
-
+var favoriteNumber = 31;
+var currentYear = 2016;
+var thatOnePrinceSong = 1999;
 /**
 * #3
 * Variables with Boolean values
@@ -33,9 +33,9 @@
 *
 * Their values should be a Boolean
 **/
-
-
-
+var isDaytime = true;
+var = isLeftHanded = false;
+var = inHawaii = true;
 /**
 * #4
 * Variables with null
@@ -55,7 +55,7 @@
 * This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 **/
-
+var westCoast = [] 
 
 
 /**
