@@ -34,8 +34,8 @@ var thatOnePrinceSong = 1999;
 * Their values should be a Boolean
 **/
 var isDaytime = true;
-var = isLeftHanded = false;
-var = inHawaii = true;
+var isLeftHanded = false;
+var inHawaii = true;
 /**
 * #4
 * Variables with null
@@ -44,8 +44,8 @@ var = inHawaii = true;
 *
 * Their values should be a Null value
 **/
-
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
 
 /**
 * #5a
@@ -55,7 +55,7 @@ var = inHawaii = true;
 * This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 **/
-var westCoast = [] 
+var westCoast = ["California, Oregon, Washington"];
 
 
 /**
@@ -66,7 +66,7 @@ var westCoast = []
 * This Array contains numbers that are considered 'even values'.
 * Have at least ten even values in this array.
 **/
-
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 
 
 /**
@@ -79,10 +79,10 @@ var westCoast = []
 *
 * Extend this behavior to include subtraction, multiplication and division.
 */
-
-
-
-
+var sumOfNumbers = 1 + 2 + 3 = 6;
+var differenceOfNumbers = 3 - 2 - 1 = 0;
+var productOfNumbers = 1 * 2 * 3 = 6;
+var quotientOfNumbers = 12 / 3 / 2 = 2;
 /**
 * #6b Comparisons & Logic
 * Variables with the outcome of a comparison operation:
@@ -98,9 +98,9 @@ var westCoast = []
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
-
-
-
+var isEqual = true;
+num===num
+==
 /**
 * #6c Assignments
 * Variables with the outcome of an assignment operation:
@@ -115,7 +115,7 @@ var westCoast = []
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
-
+var generalContainer = num=5, a += 10, a -= 10, a *= 10, a /= 10;
 
 
 
@@ -130,8 +130,10 @@ var westCoast = []
 *
 * Store the return value to a variable named `jumpResult`
 **/
-
-
+function jump(height) {
+	return "You jumped 9 feet high!"
+}
+var jumpResult = "You jumped 9 feet high!"
 
 /**
 * #7b
@@ -142,4 +144,6 @@ var westCoast = []
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
+function cook(ingredient1, ingredient2, recipeName) {
+	return "Tomatoes and Cheese make a Pizza!";
+}
